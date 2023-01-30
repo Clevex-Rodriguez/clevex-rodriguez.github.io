@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TE QUIERO</title>
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="shortcut icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_corazón.svg/1200px-Heart_corazón.svg.png"
+    type="image/x-icon">
+</head>
+
+<body class="body">
+    <article class="hero">
+      <h1 class="hero__title">❤¿QUIERES SER MI FUTURA ESPOSA?❤</h1>
+      <figure class="hero__image-container">
+        <img
+          src="WhatsApp Image 2023-01-30 at 12.58.02 PM.jpeg" width = "250"
+          alt="Imagen del amor" class="hero__image" />
+
+
+<style>
+body{
+    background-color: rgb(240, 26, 69);text-align: center; text-decoration: rgb(37, 23, 224);
+
+}
+</style>
+<script>
+    function accionParaCuandoEllaDigaQueSi(){
+        alert('ahora ya somos novios clevex <3');
+    }
+
+    function mueveElBoton(){
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            newWidth = (Math.random() * width);
+            newHeight = (Math.random() * height);
+
+            document.getElementById('btnNo').style.position = "absolute";
+            document.getElementById('btnNo').style.left = newWidth + "px";
+            document.getElementById('btnNo').style.top = newHeight + "px";
+            
+
+        }
+    </script>
+</head>
+<body>
+    <h3></h3>
+    <input type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="btnSi" value="Si" />
+    <input type="button" id="btnNo" onmouseover="mueveElBoton()" value="No" />
+   
+</body>
+</html>
